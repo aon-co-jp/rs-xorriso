@@ -1,0 +1,13 @@
+[package]
+name = "rs-xorriso"
+version = "0.1.0"
+edition = "2021"
+description = "Rust-native tribute/reimplementation of GNU xorriso (ISO9660 image writer). Early WIP: Level 1, flat directory only."
+license = "MIT"
+repository = "https://github.com/aon-co-jp/rs-xorriso"
+
+[[bin]]
+name = "rs-xorriso"
+path = "src/main.rs"
+
+[dependencies]
