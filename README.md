@@ -34,6 +34,15 @@ rs-xorriso -as mkisofs -V MY_LABEL -o output.iso ./source_dir
 実際のディスク書き込み(本ツールはISOイメージの生成のみ)・
 多数ファイルによる複数セクタのルートディレクトリは、いずれも未対応です。
 
+## Install (Windows) / インストール(Windows)
+
+```powershell
+.\install.ps1
+```
+
+Builds the release binary and adds it to your user PATH.
+リリースビルドを行い、ユーザーPATHへ追加します。
+
 ## Development / 開発
 
 ```bash
